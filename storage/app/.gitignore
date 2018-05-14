@@ -1,0 +1,4 @@
+*
+!public/
+!restrito_clientes/
+!.gitignore

@@ -1,0 +1,1 @@
+﻿## Integração API PagueVeloz - PHP / Laravel 5.5

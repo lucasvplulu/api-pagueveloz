@@ -1,0 +1,99 @@
+/*############################################# GLOBLAL ############################################################*/
+.side-nav li>a:hover {
+	background-color: rgba(0,0,0,0.1);
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+.title-h1 {
+	text-align: center;
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 1.2;
+	margin-top: 50px;
+	margin-bottom: 0;
+}
+.input-field.col label {
+	left: 1.1rem;
+}
+.input-field>select {
+	display: block;
+	position: absolute;
+	margin-left: 10px;
+	width: 94%;
+	pointer-events: all;
+	height: 45px;
+	opacity: 1;
+}
+.icon_style{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	font-size: 20px;
+	color: white;
+	cursor:pointer;
+}
+.container-consulta {
+	margin-top: 30px;
+}
+.panel-boleto,
+.panel-boleto .card-tabs ,
+.panel-boleto .card-tabs .tabs-fixed-width {
+	overflow: hidden;
+}
+/*##########################################  END GLOBAL  ###########################################################*/
+#navbar nav{
+	width: 100%;
+	background-color: #f5f5f5;
+	height: 105px;
+	box-shadow: 0 0 8px 5px rgba(0, 0, 0, 0.12);
+	-webkit-box-shadow: 0 0 8px 5px rgba(0, 0, 0, 0.12)
+}
+#navbar .row-logo {
+	height: 105px;
+	text-align: center;
+}
+#navbar .logo-emp img {
+	margin-top: 10px;
+	max-width: 100%;
+	height: auto;
+}
+.panel-boleto {
+	margin-top: 50px;
+}
+.panel-boleto .tabs .tab a {
+	color: rgba(0, 0, 0, 0.5)
+}
+.panel-boleto .tabs .tab a:hover, .tabs .tab a.active {
+	color: #000;
+	font-weight: 700;
+}
+
+.panel-boleto .tabs .indicator {
+	background-color:rgba(0, 0, 0, 0.5) ;
+}
+
+
+/***********MOBILE***************/
+
+#mobile-demo{
+	background-color: #2f302f;
+}
+#mobile-demo li a{
+	color: #fff;
+}
+/*##################### HOME #####################*/
+
+/*#####################################################################################################################
+                                                    RESPONSIVO
+ #####################################################################################################################*/
+@media screen and (max-width: 992px) {
+	.btn-emitir {
+		margin-top: 50px;
+	}
+}
+@media screen and (max-width: 440px){
+	.tabs.tabs-fixed-width .tab {
+		width: 33.33%;
+	}
+}
